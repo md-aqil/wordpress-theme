@@ -1,0 +1,648 @@
+.main-img {
+	/* background: url(../img/StratFordLandingPage-300316.jpg) center;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 2000px; */
+}
+.main-img {
+	position: relative;
+}
+.main-img img {
+	width: 100%;
+	height: auto;
+}
+.main-img .bsba-btn {
+	position: absolute;
+	top: 63%;
+    left: 5.5%;
+    background: #001c83;
+    color: #fff;
+}
+.bgcolor-blue {
+    background: #001c83;
+    color: #fff;
+}
+.tnc {
+	    float: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.education-img {
+	width: 100%;
+}
+.img-overlay {
+	background-size: cover;
+	width: 100%;
+	min-height: 550px;
+}
+.whybsba {
+	color: #fff;
+	margin: 0;left: 0;
+}
+.list-item {
+	font-size: 17px;
+	padding: 0 22px;
+}
+.list-item li{
+	padding: 10px 47px;
+	font-weight: 300;
+	list-style: none;
+	 padding-top: 26px;
+
+}
+.color-header {
+	color: #7c7c7c;
+}
+.texture-img {
+	background: url(../img/texture-image.jpg) center;
+	background-size: 100% 100%;
+	width: 	100%;
+	height: 500px;
+}
+.color-white {
+	color: #fff;
+}
+.bg-gray {
+	background: #F8F9FA;
+	padding: 20px;
+}
+.font-thin {
+	font-weight: 200;
+	font-family: Roboto;
+}
+.what-people-say-img {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	margin-top: -100px;
+}
+.what-p {
+	color: #7c7c7c;
+	text-align: center;
+}
+.hr-name {
+	padding: 1px;
+	margin: 1px;
+}
+.st-name {
+	font-size: 17px;
+	font-style: italic;
+	text-align: center;
+	color: #7c7c7c;
+}
+.footer-img {
+	width: 100%;
+	height: 200px;
+}
+.logo {
+	position: absolute;
+	right: 49px;
+    top: 66px;
+}
+.thank-header {
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+
+}
+.thank-header ul{
+	float: right;
+	margin: 0;padding: 0;
+	list-style: none;
+}
+.thank-header ul li{
+	float: right;
+	line-height: 70px;
+}
+.thank-header ul li a{
+	color: #6D6D6D;
+	margin-left: 20px;
+	font-size: 17px;
+}
+.edunuts-logo {
+	margin-top: 12px;
+}
+.advantages-list {
+	color: #7C7C7C;
+	font-size: 17px;
+}
+.advantages-list li {
+	padding: 15px 0;
+
+}
+.colored-box {
+	width: 100%;
+	min-height: 130px;
+	margin-top: 15px;
+	color: #fff;
+	-webkit-transition: all .2s;
+	padding: 10px;
+	 
+}
+.bg-purple {background: #882287;}
+.bg-orange {background: #FF6801;}
+.bg-teal {background: teal;}
+.bg-l-blue {background: #02B1C8;}
+.bg-green {background: #00BB4F;}
+.bg-l-brown {background: #9C7007;}
+.bg-l-yellow {background: #BCC802;}
+.bg-blue {background: #51427F;}
+.color-blue {color: #0606D8;}
+
+.colored-box:hover {
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.comment-box {
+	
+	background: #f7f7f7;
+	padding: 25px 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+.mt150 {
+	margin-top: 150px;
+}
+.facts-li {
+	width: 100%;
+	min-height: 80px;
+	background: #f7f4f8;
+	padding: 10px 30px;
+	border-radius: 4px;
+	position: relative;
+	margin-top: 10px;
+}
+.li-box {
+	height: 60px;
+    width: 60px;
+    border: 1px solid #ddd;
+    font-size: 40px;
+    margin-left: -104px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin-top: -30px;
+    color: #fff;
+    position: absolute;
+    left: 68px;
+     top: 40px;
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+	.advantage-title {
+		text-align: center;
+	}
+	
+}
+
+
+/* responsive start from herer */
+
+.mysearch, .myselect {
+	border: none;
+    border: 1px solid #ddd;
+    height: 40px;
+    padding: 10px;
+}
+.mysearch {
+	width: 100%;
+}
+.myselect {
+	width: 100%;
+	border-right-width: 0;
+}
+.bordered {
+	border: 1px solid #ddd;
+}
+
+.edunuts-logo {
+	width: 173px;
+    margin-top: 10px;
+}
+.res-aside {
+	width: 300px;
+	height: 100%;
+	background: #333;
+	position: fixed;
+	top: 0px;
+	z-index: 20000;
+	right: -300px;
+	-webkit-transition: all .2s ease-in;
+}
+.res-aside.res-aside-show {
+	right: 0;
+	 box-shadow: 0 0 37px 8px #ECECEC;
+}
+.aside-container {
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow-y: scroll;
+}
+.side-label {
+	height: 35px;
+    width: 60px;
+    background: #333;
+    position: absolute;
+    left: -65px;
+    top: 10px;
+    cursor: pointer;
+    color: #FFF;
+    line-height: 37px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 3px;
+}
+.res-aside ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.res-aside ul li {
+	border-bottom: 1px solid #212121;
+}
+.res-aside ul li a {
+	padding: 13px 25px;
+	display: block;
+	color: #fff;
+
+}
+.res-aside ul li a:hover {
+	background: #212121;
+}
+ .res-input {
+	width: 0;
+	height: 40px;
+	background: #595656;
+	outline: none;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	-webkit-transition: all .4s;
+	margin-right: 10px;
+	display: block;
+	border-bottom: 1px solid #ddd;
+
+}
+.res-input:focus {
+	width: 100%;
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ header .logo {
+ 	margin: 0 auto;
+ 	max-width: 184px;
+    height: 49px;
+ }
+}
+@media (max-width: 767px) {
+ header .logo {
+ 	margin: 0 auto;
+ 	max-width: 184px;
+    height: 49px;
+ }
+}
+.side-input-box {
+	width: 91%;
+	margin: 0 auto;
+}
+
+.side-input {
+	width: 90%;
+	height: 37px;
+	padding: 5px;
+	border-radius: 1px;
+	border: none;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.btn-block {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.mt10 {
+	margin-top: 10px;
+}
+.por {
+	position: relative;
+}
+.loct-icon {
+	font-size: 20px;
+	position: absolute;
+	color: #333;
+	top: 87px;
+	right: 20px;
+}
+.login-box ,.signup-box{
+	
+}
+/* responsive-serach-box-here */
+.profile-header {
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-bottom: 	1px solid #ddd;
+}
+.profile-list-item {
+	list-style: none;
+	margin: 0;padding: 0;
+	float: right;
+}
+.profile-list-item li {
+	float: right;
+}
+.profile-list-item li  a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+	padding: 20px 0 20px 15px;
+}
+.profile-search-box {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 0;
+	border-radius: 3px;
+	margin-top: 10px;
+	position: relative;	
+}
+.profile-search-box input, select{
+	border: none;
+	height: 40px;
+	padding: 10px;
+	outline: none;
+}
+.profile-search-box input {
+	width: 69%;
+}
+.profile-search-box select {
+	width: 30%;
+	border-right: 1px solid #ddd;
+}
+.pro-srch-icon {
+	position: absolute;
+    top: 9px;
+    right: 8px;
+    font-size: 22px;
+    color: #949494;
+}
+.sidebar-close-btn {
+	font-size: 20px;
+	float: right;
+	color: white;
+	margin-right: 14px;
+}
+.aside-container {
+	position: relative;
+}
+/* here will be change second image */
+.img-box {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.main-img {
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	width: 100%;
+    height: 100%;
+	/* background: rgba(110, 54, 103, 0.4); */
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+}
+.heading {
+	font-family: "Proxima Nova Alt";
+	color: #fff;
+	font-weight: lighter;
+	text-align: left;
+}
+.form-box {
+	min-height: 300px;
+	max-width: 420px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	float: right;
+	/* margin-top: 40px; */
+	/* background: rgba(0, 0, 0, 0.80); */
+	background: rgba(4, 14, 29, 0.6);
+	
+}
+.form-box .form-control{
+	background: #fff;
+	border: none;
+	margin-top: 10px;
+}
+.form-box .input-group-addon {
+	background: #0D4583;
+	color: #fff;
+	border: none;
+}
+.form-box .input-group{
+	margin-top: 10px;
+}
+.por {
+	position: relative;
+}
+.text-white {
+	color: #fff;
+
+}
+.font-helvatica {
+	font-family: "Helvetica Neue LT Pro 45";
+}
+.font-md {
+	font-size: 300px;
+}
+
+.email-btn-block {
+    padding: 3px 17px;
+    border: none;
+    background: #fff;
+    color: #0D4583;
+    font-size: 17px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  	-webkit-transition: all .3s ease-in;
+	border: 2px solid #0D4583;
+
+}
+.email-btn-block:hover {
+	background: #0D4583;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.register-btn {
+    background: rgb(255, 104, 1);
+    position: absolute;
+    top: 0px;
+    right: -147px;
+    padding: 6px 16px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+}
+.mt3 {
+	margin-top: 5px;
+}
+.myCheckbox {
+	margin-left: 17px;
+}
+.myCheckbox input {
+    display: none;
+}
+
+.myCheckbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid #9B9A9A;
+    border-radius: 2px;
+}
+
+.myCheckbox input:checked + span {
+    background: url('../img/img-thing.png') center;
+    background-size: 100% 100%;
+    /* background: red; */
+}
+.form-control {
+	height: 45px;
+}
+.contact-icon {
+	color: #fff;
+	float: right;
+	margin-top: -33px;
+}
+.whois-title {
+	font-weight: 400;
+    font-family: Roboto;
+    color: #000;
+}
+.whois-title-p {
+	color: #666666;
+    font-family: Roboto;
+	
+}
+.side-icon {
+	padding: 5px 8px;
+	background: #0C4A89;
+	border-radius: 3px;
+	color: #fff;
+    margin-right: 5px;
+}
+.side-p {
+	padding: 0 43px;
+	font-size: 16px;
+}
+.prgph {
+	font-size: 16px;
+	color:#464646;
+}
+.mt70 {
+	margin-top: 70px;
+}
+.fz71 {
+	font-size: 70px;
+}
+.bgwhite {
+	background: #fff;
+	color: #0C427F;
+	padding: 0 10px;
+}
+.getcallback {
+	margin-right: 15px;
+}
+.langing-footer {
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	background: #121212;
+	font-size: 12px;
+	font-weight: 200;
+}
+.form-box {
+	position: absolute;
+	right: 100px;
+	top: 100px;
+}
+.second-form {
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+
+
+}
+.second-form .second-img {
+	min-height: 300px;
+	width: 100%;
+	background-attachment: fixed;
+}
+.second-form .second-overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.scbtn {
+	display: block;
+	width: 200px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 15px;
+
+}
+.scbtn:hover {
+	background: #0C4A89;
+	color: #fff;
+}
+@media (min-width: 1200px) {
+ 	.form-group .form-control{
+			width: 219px;
+		}
+}
+
+@media (max-width: 768px) {
+	.advantage-title {
+		text-align: center;
+	}
+	.fz71 {
+		font-size: 33px;
+	}
+	.form-box {
+		position: static;
+		margin-top: 0;
+		background: #0C4A89;
+	}
+	.second-form {
+		min-height: 420px;
+	}
+	.scbtn {
+		width: 100%;
+	}
+.edunuts-logo {
+	display: block;
+	margin: 10px auto;
+}
+}
